@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-webservices') {
+orgs.newOrg('webtools.webservices', 'eclipse-webservices') {
   settings+: {
     description: "",
     name: "Eclipse Web Services Tools",
